@@ -7,7 +7,7 @@
 #include "GetDamageFromBonesComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable )
 class KENSEI_API UGetDamageFromBonesComponent : public UActorComponent
 {
 	GENERATED_BODY()
